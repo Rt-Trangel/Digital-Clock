@@ -1,0 +1,43 @@
+(footprint "Buzzer1230" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62C594DC)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -14.5 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4c9fdea7-ba0c-45cc-8f66-240980c37d5c)
+  )
+  (fp_text value "Buzzer1230" (at 0 -13 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c58960d9-4cac-4036-ad2e-1aef26946dae)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -4.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5b96c1ad-46ba-4366-8241-fbc1cd0e9bbd)
+  )
+  (fp_line (start -6 1.5) (end -6 -1.5) (layer "F.SilkS") (width 0.12) (tstamp 4fb02e58-160a-4a39-9f22-d0c75e82ee72))
+  (fp_line (start -6 -10.5) (end -6 -7.5) (layer "F.SilkS") (width 0.12) (tstamp 6199bec7-e7eb-4ae0-b9ec-c563e157d635))
+  (fp_line (start 6 -10.5) (end 6 -7.5) (layer "F.SilkS") (width 0.12) (tstamp 9c8ccb2a-b1e9-4f2c-94fe-301b5975277e))
+  (fp_line (start -6 -10.5) (end 6 -10.5) (layer "F.SilkS") (width 0.12) (tstamp bb4f0314-c44c-4dda-b85c-537120eaae9a))
+  (fp_line (start 6 1.5) (end 6 -1.5) (layer "F.SilkS") (width 0.12) (tstamp e615f7aa-337e-474d-9615-2ad82b1c44ca))
+  (fp_line (start 6 1.5) (end -6 1.5) (layer "F.SilkS") (width 0.12) (tstamp ef8fe2ac-6a7f-4682-9418-b801a1b10a3b))
+  (fp_line (start -8 2) (end -8 -11) (layer "F.CrtYd") (width 0.05) (tstamp 0217dfc4-fc13-4699-99ad-d9948522648e))
+  (fp_line (start 8 -11) (end 8 2) (layer "F.CrtYd") (width 0.05) (tstamp 08a7c925-7fae-4530-b0c9-120e185cb318))
+  (fp_line (start -8 -11) (end 8 -11) (layer "F.CrtYd") (width 0.05) (tstamp 31e08896-1992-4725-96d9-9d2728bca7a3))
+  (fp_line (start 8 2) (end -8 2) (layer "F.CrtYd") (width 0.05) (tstamp c01d25cd-f4bb-4ef3-b5ea-533a2a4ddb2b))
+  (pad "1" smd rect (at -6 -4.5 90) (size 5.08 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3451168c-3c76-4628-aee4-7c231bd100c3))
+  (pad "2" smd rect (at 6 -4.5 90) (size 5.08 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4d4b0fcd-2c79-4fc3-b5fa-7a0741601344))
+  (group "" (id 44d8279a-9cd1-4db6-856f-0363131605fc)
+    (members
+      4fb02e58-160a-4a39-9f22-d0c75e82ee72
+      e615f7aa-337e-474d-9615-2ad82b1c44ca
+      ef8fe2ac-6a7f-4682-9418-b801a1b10a3b
+    )
+  )
+  (group "" (id 46918595-4a45-48e8-84c0-961b4db7f35f)
+    (members
+      6199bec7-e7eb-4ae0-b9ec-c563e157d635
+      9c8ccb2a-b1e9-4f2c-94fe-301b5975277e
+      bb4f0314-c44c-4dda-b85c-537120eaae9a
+    )
+  )
+)
